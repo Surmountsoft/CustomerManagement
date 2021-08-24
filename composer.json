@@ -1,0 +1,30 @@
+{
+    "name": "csoftech/customer",
+    "description": "This is for customer management.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "USoftech\\Customer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahul Sharma",
+            "email": "rahulsharma389@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^6.2",
+        "proengsoft/laravel-jsvalidation": "^4.4",
+        "yajra/laravel-datatables-oracle": "~9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "USoftech\\Customer\\CustomerServiceProvider"
+            ]
+        }
+    }
+}
